@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftProjects}",
+            "name": "Debug SwiftProjects",
+            "program": "${workspaceFolder:SwiftProjects}\\.build\\debug\\SwiftProjects.exe",
+            "preLaunchTask": "swift: Build Debug SwiftProjects"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftProjects}",
+            "name": "Release SwiftProjects",
+            "program": "${workspaceFolder:SwiftProjects}\\.build\\release\\SwiftProjects.exe",
+            "preLaunchTask": "swift: Build Release SwiftProjects"
+        }
+    ]
+}
